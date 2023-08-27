@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sidebar{
+    position: fixed;
+    left: 0%;
+    width: 245px;
+    height: 100%;
+    background-color: #00CED1;
+}
+.sidebar header{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    user-select: none;
+    line-height: 80px;
+    background-color:#16b7b9 ;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 47.5px;
+    padding-left: 30px;
+    color: white;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(255, 255, 255);
+    transition: .25s;
+    text-decoration: none;
+}
+ul li:hover a{
+    padding-left: 50px;
+    background-color: white;
+    color:  #00CED1;
+}
+.sidebar .active{
+    color:#00CED1; 
+    background-color: white;
+}
+
+.table a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn:hover a{
+    text-decoration: none;
+    color: white;
+
+}
+.logout i{
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    left: 100px; 
+}
+.home i{
+    color: black;
+    position: fixed;
+    
+}
+select {
+    border: none;
+    margin-top: -10px;
+    margin-left: 10px;
+    background-color: white;
+}
+select :hover{
+    background-color: #00CED1;
+}
